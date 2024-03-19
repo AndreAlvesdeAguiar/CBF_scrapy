@@ -102,7 +102,7 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    print(f"DISPONIVEL: '{ref5}',UTILIZADOS: '{ref7}', DISPONIVEL: '{ref11}'")
+                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}',  ARRECADAÇÃO: '{ref11}'")
                     break                
                         
             resultados.append({'Jogo': arquivo_pdf, 'Tipo de Sumário': tipo_sumario, 'ARRECADAÇÃO': ref5, 'UTILIZADOS': ref7, 'DISPONIVEL': ref11})
@@ -126,7 +126,6 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    # print(ref7)
                     print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}', ARRECADAÇÃO: '{ref11}'")
                     break
 
@@ -151,7 +150,6 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    # print(ref7)
                     print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}', ARRECADAÇÃO: '{ref11}'")
                     break
 
@@ -175,7 +173,6 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    # print(ref7)
                     print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}', ARRECADAÇÃO: '{ref11}'")
                     break
                     
@@ -199,8 +196,7 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    # print(ref7)
-                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}', DEVOLVIDOS: '0', ARRECADAÇÃO: '{ref11}'")
+                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}',  ARRECADAÇÃO: '{ref11}'")
                     break
                 
                 if palavra_procurada3 in linha_base:
@@ -241,8 +237,7 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    # print(ref7)
-                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}', DEVOLVIDOS: '0', ARRECADAÇÃO: '{ref11}'")
+                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}',  ARRECADAÇÃO: '{ref11}'")
                     break
                 
             resultados.append({'Jogo': arquivo_pdf, 'Tipo de Sumário': tipo_sumario, 'ARRECADAÇÃO': ref11, 'UTILIZADOS': ref9, 'DISPONIVEL': ref7})
@@ -266,8 +261,7 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    # print(ref7)
-                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}', DEVOLVIDOS: '0', ARRECADAÇÃO: '{ref11}'")
+                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}',  ARRECADAÇÃO: '{ref11}'")
                     break
             
             resultados.append({'Jogo': arquivo_pdf, 'Tipo de Sumário': tipo_sumario, 'ARRECADAÇÃO': ref11, 'UTILIZADOS': ref9, 'DISPONIVEL': ref7})
@@ -290,8 +284,7 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    # print(ref7)
-                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}', DEVOLVIDOS: '0', ARRECADAÇÃO: '{ref11}'")
+                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}',  ARRECADAÇÃO: '{ref11}'")
                     break
                     
             tipo_sumario = "Tipo 3 - (FEDERACAO PAULISTA DE FUTEBOL)"
@@ -316,8 +309,7 @@ for arquivo_pdf in os.listdir(pasta_pdf):
                     ref7 = dados[ref6]
                     ref9 = dados[ref8]
                     ref11 = dados[ref10]
-                    # print(ref7)
-                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}', DEVOLVIDOS: '0', ARRECADAÇÃO: '{ref11}'")
+                    print(f"DISPONIVEIS: '{ref7}', VENDIDOS: '{ref9}',  ARRECADAÇÃO: '{ref11}'")
                     break
                 
                     
